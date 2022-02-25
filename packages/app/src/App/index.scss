@@ -1,0 +1,6 @@
+.cls1 {
+    @include themesSet() {
+        color: themed("default");
+        background-color: themed("breeze");
+    }
+}

@@ -4,11 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "pnpm run --filter ./packages --parallel start"
   },
   "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "@plume2/plugin-remote": "^1.0.4"
-  }
+  "license": "ISC"
 }

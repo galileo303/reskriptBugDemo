@@ -1,0 +1,33 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["packages/**"],
+    "allowJs": false,
+    "skipLibCheck": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "forceConsistentCasingInFileNames": true,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "paths": {
+      "@plume3": ["packages/*"]
+    }
+  },
+  "include": [
+    "packages/components/src/index.js",
+    "packages/utils/typings.ts",
+    "packages/remote/src"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/node_modules",
+    "**/__tests__",
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "name": "@plume3/editor",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "skr dev",
+    "build": "skr build --clean",
+    "lint": "skr lint",
+    "lint-staged": "skr lint --staged --fix --auto-stage"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "7.16.7",
+    "@reskript/cli": "3.0.1",
+    "@reskript/cli-build": "3.0.1",
+    "@reskript/cli-dev": "3.0.1",
+    "@reskript/cli-lint": "3.0.1",
+    "@reskript/cli-test": "3.0.1",
+    "@reskript/config-webpack": "3.0.1",
+    "@reskript/plugin-sass": "3.0.1",
+    "@types/react": "^17.0.38",
+    "@types/react-dom": "^17.0.11",
+    "core-js": "3.20.2",
+    "eslint": "8.6.0",
+    "external-remotes-plugin": "^1.0.0",
+    "husky": "^7.0.4",
+    "stylelint": "14.2.0"
+  },
+  "dependencies": {
+    "@plume3/hooks": "workspace:^1.0.0",
+    "antd": "^4.18.2",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "rxjs": "^7.5.4"
+  }
+}
