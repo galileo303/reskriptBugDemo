@@ -19,7 +19,7 @@
         "@plume3/remote": "workspace:^1.0.0",
         "@plume3/runtime": "workspace:^1.0.0",
         "@plume3/utils": "workspace:^1.0.0",
-        "@reskript/plugin-workspace-no-build": "^3.0.6",
+        "@reskript/plugin-workspace-no-build": "4.2.1",
         "antd-mobile": "^5.0.0-rc.17",
         "axios": "^0.25.0",
         "components": "^0.1.0",
